@@ -1,3 +1,8 @@
 from django.contrib import admin
+from .models import *
 
-# Register your models here.
+# Modelos para ser vistos y modificados desde el Django admin
+admin.site.register(Departamento)
+admin.site.register(Programa)
+admin.site.register(Asignatura)
+admin.site.register(Usuario)

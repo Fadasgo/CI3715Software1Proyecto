@@ -21,6 +21,6 @@ def hello_world(request):
 	return HttpResponse('Hello, world')
 
 urlpatterns = [
-    url(r'^admin/', admin.site.urls),
+    url(r'^admin/', admin.site.urls), # agregamos la vista de admin
     #path('hello-world/' hello_world)
 ]
